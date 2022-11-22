@@ -12,7 +12,9 @@
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/0345135d49.js" crossorigin="anonymous"></script>
     <!-- google fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;900&family=Roboto&display=swap" rel="stylesheet">
     <!-- external css -->
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>Political Branding</title>

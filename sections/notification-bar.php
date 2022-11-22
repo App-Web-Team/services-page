@@ -3,7 +3,7 @@
 </head>
 
 <!-- navbar section-->
-<nav id="scroll-nav" class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-dark">
     <!-- logo -->
     <a href="#"><img class="navbar-brand" src="assets/pondy_world_white_logo.svg" alt=""></a>
     <!-- toggle button for mobile nav -->
@@ -42,11 +42,3 @@
         </ul>
     </div>
 </nav>
-
-<script>
-    window.onscroll = () => {
-        const nav = document.querySelector('#scroll-nav');
-        if (this.scrollY <= 10) nav.className = 'navbar navbar-expand-lg navbar-dark';
-        else nav.className = 'navbar navbar-expand-lg navbar-dark scroll fixed-top';
-    };
-</script>

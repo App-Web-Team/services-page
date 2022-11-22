@@ -1,5 +1,10 @@
-.service-row {
-    margin-bottom: 4rem;
+#header-section {
+    padding-bottom: 5rem;
+}
+
+.landing-height {
+    /* margin-bottom: 4rem; */
+    height: 75vh;
 }
 
 .service-col .service-heading,
@@ -24,28 +29,150 @@
     margin-top: 1rem;
 }
 
-.icon-col {
-    color: #fff;
-}
-
-.icon-col-1 i {
-    font-size: 10rem;
+.people-icon img {
+    height: 100px;
 }
 
 .icon-margin {
     margin-top: 5rem;
 }
 
-.icon-col-2 i {
-    font-size: 10rem;
+.person-icon img {}
+
+.superman-icon img {
+    height: 130px;
 }
 
-.icon-col-3 i {
-    font-size: 4rem;
-    color: var(--secondary-color);
+/* style ordinary section */
+
+#ordinary-section {
+    background-color: #fff;
+    padding: 6rem 0;
 }
 
-.icon-col-4 i {
-    font-size: 10rem;
-    color: #fff;
+.ordinary-content p {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 500;
 }
+
+/* .superman-box {
+    position: relative
+} */
+
+.superman-box img {
+    height: 350px;
+    position: relative;
+}
+
+.being-text,
+.you-text {
+    color: #000;
+    font-weight: 700;
+    position: absolute;
+}
+
+.being-text {
+    text-transform: capitalize;
+    text-align: end;
+}
+
+.being-text {
+    top: 10%;
+    left: -3%;
+}
+
+.you-text {
+    right: -30%;
+    top: 40%;
+}
+
+
+/* @media screen and (min-width: 1400px) {}
+
+@media screen and (max-width: 1400px) {
+    .being-text {
+        top: 10%;
+        left: -3%;
+    }
+
+    .you-text {
+        right: -30%;
+        top: 40%;
+    }
+} */
+
+@media screen and (max-width: 1200px) {
+
+    .being-text,
+    .you-text {
+        font-size: 1.5rem;
+    }
+
+    .being-text {
+        top: 10%;
+        left: 17%;
+    }
+
+    .you-text {
+        right: 0%;
+        top: 40%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .being-text,
+    .you-text {
+        font-size: 1.5rem;
+    }
+
+    .being-text {
+        left: 23%;
+    }
+
+    .you-text {
+        right: 9%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .being-text,
+    .you-text {
+        font-size: 1.5rem;
+    }
+
+    .being-text {
+        left: 15%;
+    }
+
+    .you-text {
+        right: -4%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .being-text,
+    .you-text {
+        font-size: 1rem;
+    }
+
+    .being-text {
+        left: 26%;
+    }
+
+    .you-text {
+        right: 11%;
+    }
+
+    .superman-box img {
+        height: 140px;
+        position: relative;
+    }
+}
+
+/* end - style ordinary section */

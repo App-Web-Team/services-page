@@ -21,7 +21,3 @@ body {
     overflow-x: hidden;
     background-color: var(--primary-color);
 }
-
-section {
-    padding: 2rem 0rem;
-}
