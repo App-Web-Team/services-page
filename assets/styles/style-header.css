@@ -1,0 +1,51 @@
+.service-row {
+    margin-bottom: 4rem;
+}
+
+.service-col .service-heading,
+.content {
+    color: #fff;
+}
+
+.service-col .service-heading {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.service-col .content {
+    margin-top: 2rem;
+}
+
+.service-col .content h2 {
+    font-weight: 700;
+}
+
+.service-col .content p {
+    margin-top: 1rem;
+}
+
+.icon-col {
+    color: #fff;
+}
+
+.icon-col-1 i {
+    font-size: 10rem;
+}
+
+.icon-margin {
+    margin-top: 5rem;
+}
+
+.icon-col-2 i {
+    font-size: 10rem;
+}
+
+.icon-col-3 i {
+    font-size: 4rem;
+    color: var(--secondary-color);
+}
+
+.icon-col-4 i {
+    font-size: 10rem;
+    color: #fff;
+}
