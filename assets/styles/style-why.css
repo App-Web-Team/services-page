@@ -1,0 +1,59 @@
+#why-section {
+    padding: 4rem 0;
+}
+
+.why-text {
+    color: #fff;
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+}
+
+.why-text::after {
+    position: absolute;
+    content: "";
+    height: 13px;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    top: 140%;
+    border-radius: 25px 25px 5px 5px;
+}
+
+.why-content {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+/* card design */
+
+.card-row {
+    margin-top: 4rem;
+}
+
+.why-col {
+    display: flex;
+    justify-content: center;
+}
+
+.why-box {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 3.5rem 3.5rem;
+    border-radius: 2rem;
+}
+
+.why-box i {
+    color: var(--primary-color);
+    font-size: 8rem;
+    display: block;
+}
+
+.why-box h2 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 1rem;
+}

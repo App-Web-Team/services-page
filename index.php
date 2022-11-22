@@ -25,6 +25,7 @@
     <?php
     include "sections/notification-bar.php";
     include "sections/header.php";
+    include "sections/why-section.php";
     include "sections/footer.php";
     ?>
 
