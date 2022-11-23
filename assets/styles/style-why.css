@@ -89,3 +89,11 @@
     display: block;
 }
 
+/* style why us section */
+
+#why-us-section {
+    background-color: var(--light-blue);
+    padding: 4rem 0;
+}
+
+/* end - style why us section */
