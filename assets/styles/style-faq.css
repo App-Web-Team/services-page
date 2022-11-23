@@ -1,5 +1,6 @@
 #faq-section {
     padding: 4rem 0;
+    padding-bottom: 0;
 }
 
 .faq-text {
@@ -65,9 +66,27 @@
     padding-top: 8.5rem;
 }
 
+#faq-section .btn {
+    background-color: var(--secondary-color);
+    padding: 2rem 5rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    margin-top: 7rem;
+}
+
 @media screen and (max-width: 992px) {
     .answer-box:hover {
         padding-top: 10rem;
+    }
+
+    #faq-section .btn {
+        padding: 1rem 3rem;
+        font-size: 1.2rem;
+        border-radius: 0.7rem;
+        margin-top: 3rem;
     }
 }
 
@@ -88,6 +107,13 @@
         margin-top: 3rem;
     }
 
+    #faq-section .btn {
+        padding: 1rem 4rem;
+        font-size: 1.2rem;
+        border-radius: 0.7rem;
+        margin-top: 4rem;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -98,6 +124,10 @@
     .question-box {
         padding: 1.5rem 2.5rem;
         height: 96px;
+    }
+
+    #faq-section .add-margin {
+        margin-top: 2rem;
     }
 
     .answer-box {
@@ -111,5 +141,12 @@
     /* #faq-section .add-margin {
         margin-top: 3rem;
     }   */
+
+    #faq-section .btn {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border-radius: 0.7rem;
+        margin-top: 2rem;
+    }
 
 }

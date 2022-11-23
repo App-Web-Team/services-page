@@ -41,5 +41,8 @@
                     </div>
                 </div>
             </div>
+            <div class="col-10 col-sm-12 col-lg-8 text-center">
+                <button class="btn">free consultation</button>
+            </div>
         </div>
 </section>
