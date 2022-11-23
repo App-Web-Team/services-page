@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700;900&family=Roboto&display=swap" rel="stylesheet">
     <!-- external css -->
     <link rel="stylesheet" href="assets/styles/style.css">
-    <title>Political Branding</title>
+    <title>Personal Branding</title>
 </head>
 
 <body>
