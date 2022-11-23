@@ -2,8 +2,8 @@
 
 <section id="why-us-section">
     <div class="container">
-        <div class="row">
-            <div class="col-md-7">
+        <div class="row justify-content-center justify-content-md-start">
+            <div class="col-10 col-md-7">
                 <h2 class="why-text">
                     Why you need us
                 </h2>
@@ -14,35 +14,35 @@
         </div>
         <div class="row card-row card-row-1 justify-content-center">
             <div class="col-10 col-md-6 col-lg-4 why-col">
-                <div class="why-box">
-                    <i class="fa-solid fa-briefcase"></i>
-                    <h2>leadership</h2>
-                    <div class="hover-box">
-                        <p class="hover-content">
-                            Earn the Trust of People. To make believe in you, for what you are.
-                        </p>
+                <div class="bottom-box">
+                    <p class="bottom-content">
+                        Earn the Trust of People. To make believe in you, for what you are.
+                    </p>
+                    <div class="top-box">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h2>experience</h2>
                     </div>
                 </div>
             </div>
             <div class="col-10 col-md-6 col-lg-4 mt-5 mt-md-0 why-col">
-                <div class="why-box">
-                    <i class="fa-solid fa-lightbulb"></i>
-                    <h2>Crediability</h2>
-                    <div class="hover-box">
-                        <p class="hover-content">
-                            Earn the Trust of People. To make believe in you, for what you are.
-                        </p>
+                <div class="bottom-box">
+                    <p class="bottom-content">
+                        Earn the Trust of People. To make believe in you, for what you are.
+                    </p>
+                    <div class="top-box">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <h2>innovation</h2>
                     </div>
                 </div>
             </div>
             <div class="col-10 col-md-6 col-lg-4 mt-5 mt-lg-0 why-col">
-                <div class="why-box">
-                    <i class="fa-solid fa-brain"></i>
-                    <h2>Recognition</h2>
-                    <div class="hover-box">
-                        <p class="hover-content">
-                            Earn the Trust of People. To make believe in you, for what you are.
-                        </p>
+                <div class="bottom-box">
+                    <p class="bottom-content">
+                        Earn the Trust of People. To make believe in you, for what you are.
+                    </p>
+                    <div class="top-box">
+                        <i class="fa-solid fa-brain"></i>
+                        <h2>expertise</h2>
                     </div>
                 </div>
             </div>

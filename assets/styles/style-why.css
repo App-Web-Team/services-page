@@ -97,3 +97,53 @@
 }
 
 /* end - style why us section */
+
+
+/* hover styling */
+.bottom-box {
+    padding: 3.5rem 3.5rem;
+    padding-top: 9rem;
+    border-radius: 2rem;
+    position: relative;
+    width: 300px;
+    transition: all 0.3s ease;
+}
+
+.bottom-content {
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.top-box {
+    background-color: #D9D9D9;
+    text-align: center;
+    padding: 3.5rem 3.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.top-box i {
+    color: var(--primary-color);
+    font-size: 8rem;
+    display: block;
+}
+
+.top-box h2 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    font-weight: 700;
+    /* display: inline-block; */
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.bottom-box:hover {
+    background-color: var(--secondary-color);
+    padding-top: 20.5rem;
+}
