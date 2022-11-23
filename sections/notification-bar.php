@@ -5,7 +5,7 @@
 <!-- navbar section-->
 <nav class="navbar navbar-expand-lg navbar-dark">
     <!-- logo -->
-    <a href="#"><img class="navbar-brand" src="assets/pondy_world_white_logo.svg" alt=""></a>
+    <a href="#"><img class="navbar-brand" src="assets/images/pondy_world_white_logo.svg" alt=""></a>
     <!-- toggle button for mobile nav -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
