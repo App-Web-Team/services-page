@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="row card-row card-row-1 justify-content-center">
-            <div class="col why-col">
+            <div class="col-10 col-md-6 col-lg-4 why-col">
                 <div class="why-box">
                     <i class="fa-solid fa-briefcase"></i>
                     <h2>leadership</h2>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col why-col">
+            <div class="col-10 col-md-6 col-lg-4 mt-5 mt-md-0 why-col">
                 <div class="why-box">
                     <i class="fa-solid fa-lightbulb"></i>
                     <h2>Crediability</h2>
@@ -35,7 +35,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col why-col">
+            <div class="col-10 col-md-6 col-lg-4 mt-5 mt-lg-0 why-col">
                 <div class="why-box">
                     <i class="fa-solid fa-brain"></i>
                     <h2>Recognition</h2>
