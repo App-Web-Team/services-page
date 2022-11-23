@@ -12,37 +12,62 @@
                 </p>
             </div>
         </div>
-        <div class="row card-row justify-content-center">
+        <div class="row card-row card-row-1 justify-content-center">
             <div class="col why-col">
-                <div class="why-box">
+                <div class="why-box row-1-box">
                     <i class="fa-solid fa-chess-king"></i>
                     <h2>leadership</h2>
+                    <div class="hover-box">
+                        <p class="hover-content">
+                            Earn the Trust of People. To make believe in you, for what you are.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="col why-col">
-                <div class="why-box">
+                <div class="why-box row-1-box">
                     <i class="fa-solid fa-handshake"></i>
                     <h2>Crediability</h2>
+                    <div class="hover-box">
+                        <p class="hover-content">
+                            Earn the Trust of People. To make believe in you, for what you are.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="col why-col">
-                <div class="why-box">
+                <div class="why-box row-1-box">
                     <i class="fa-solid fa-dharmachakra"></i>
                     <h2>Recognition</h2>
+                    <div class="hover-box">
+                        <p class="hover-content">
+                            Earn the Trust of People. To make believe in you, for what you are.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row card-row justify-content-center">
+        <div id="card-row-2" class="row card-row card-row-2 justify-content-center">
             <div class="col-4 why-col">
                 <div class="why-box">
                     <i class="fa-solid fa-eye"></i>
-                    <h2>leadership</h2>
+                    <h2>Percevied</h2>
+                    <div class="hover-box">
+                        <p class="hover-content">
+                            Earn the Trust of People. To make believe in you, for what you are.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="col-4 why-col">
                 <div class="why-box">
                     <i class="fa-solid fa-gem"></i>
-                    <h2>Crediability</h2>
+                    <h2>Perstige</h2>
+                    <div class="hover-box">
+                        <p class="hover-content">
+                            Earn the Trust of People. To make believe in you, for what you are.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

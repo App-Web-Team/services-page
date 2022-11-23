@@ -42,6 +42,10 @@
     text-align: center;
     padding: 3.5rem 3.5rem;
     border-radius: 2rem;
+    position: relative;
+    /* z-index: -2; */
+    cursor: pointer;
+    width: 300px;
 }
 
 .why-box i {
@@ -54,6 +58,34 @@
     color: var(--primary-color);
     text-transform: capitalize;
     font-weight: 700;
-    display: inline-block;
+    /* display: inline-block; */
     margin-top: 1rem;
+    cursor: pointer;
 }
+
+.hover-box {
+    background-color: var(--secondary-color);
+    position: absolute;
+    padding: 3.5rem 3.5rem;
+    border-radius: 2rem;
+    /* width: 350px; */
+    left: 0;
+    /* z-index: -1; */
+    display: none;
+}
+
+.hover-content {
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+/* .why-box:hover .card-row-2 {
+    margin-top: 15rem;
+} */
+
+.why-box:hover .hover-box {
+    display: block;
+}
+
