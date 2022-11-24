@@ -15,6 +15,7 @@
     <!-- external css -->
     <link rel="stylesheet" href="assets/styles/style.css">
     <title>Personal Branding</title>
+    <script defer src="assets/scripts/scroll-animation.js"></script>
 </head>
 
 <body>
