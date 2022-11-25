@@ -27,7 +27,8 @@
     border-radius: 1rem;
     position: relative;
     cursor: pointer;
-    transition: padding-top 0.5s ease;
+    transition: all 0.5s ease;
+    visibility: hidden;
 }
 
 .answer {
@@ -49,6 +50,7 @@
     left: 0;
     right: 0;
     top: 0;
+    visibility: visible;
 }
 
 .question {
@@ -64,6 +66,7 @@
 
 .answer-box:hover {
     padding-top: 8.5rem;
+    visibility: visible;
 }
 
 #faq-section .btn {
