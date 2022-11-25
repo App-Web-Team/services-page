@@ -1,6 +1,54 @@
-<head>
-    <link rel="stylesheet" href="assets/styles/style-footer.css">
-</head>
+<style>
+    #footer {
+        background-color: var(--primary-color) !important;
+    }
+
+    /* styling footer */
+    footer p {
+        padding: 10px 0px;
+        font-size: 16px;
+    }
+
+    footer a {
+        font-size: 16px;
+    }
+
+    footer h5 {
+        font-size: 20px;
+    }
+
+    .underline-small-white {
+        color: #fff;
+        display: inline-block;
+        position: relative;
+
+    }
+
+    .underline-small-white::after {
+        content: '';
+        margin: 5px 0px;
+        height: 5px;
+        width: 80%;
+        background: #fff;
+        position: absolute;
+        left: calc(50% - 50%);
+        top: 100%;
+    }
+
+    /* 
+@media screen and (max-width: 1200px) {
+    .underline-small-white::after {
+        content: '';
+        margin: 5px 0px;
+        height: 5px;
+        width: 80%;
+        background: #fff;
+        position: absolute;
+        left: calc(50% - 50%);
+        top: 20px;
+    }
+} */
+</style>
 
 <footer id="footer" class="text-center text-lg-start text-white">
 
