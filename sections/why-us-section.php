@@ -14,7 +14,7 @@
         </div>
         <div class="row card-row card-row-1 justify-content-center">
             <div class="col-10 col-md-6 col-lg-4 why-col">
-                <div class="bottom-box">
+                <div class="bottom-box not-apply">
                     <p class="bottom-content">
                         Earn the Trust of People. To make believe in you, for what you are.
                     </p>
@@ -25,7 +25,7 @@
                 </div>
             </div>
             <div class="col-10 col-md-6 col-lg-4 mt-5 mt-md-0 why-col">
-                <div class="bottom-box">
+                <div class="bottom-box not-apply">
                     <p class="bottom-content">
                         Earn the Trust of People. To make believe in you, for what you are.
                     </p>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="col-10 col-md-6 col-lg-4 mt-5 mt-lg-0 why-col">
-                <div class="bottom-box">
+                <div class="bottom-box not-apply">
                     <p class="bottom-content">
                         Earn the Trust of People. To make believe in you, for what you are.
                     </p>
