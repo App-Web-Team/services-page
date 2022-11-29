@@ -1,61 +1,60 @@
-#service {
-    background-color: #fff;
+#unique {
     padding: 6rem 0rem;
 }
 
-#service .heading {
-    color: var(--primary-color);
+#unique .heading {
+    color: #fff;
     font-weight: 600;
     display: inline-block;
     text-transform: uppercase;
     position: relative;
 }
 
-#service .heading::after {
+#unique .heading::after {
     content: "";
-    background-color: var(--secondary-color);
+    background-color: #fff;
     height: .5rem;
     position: absolute;
     inset: auto 0rem -1rem;
     border-radius: 0px 0px 8px 0px;
 }
 
-#service .service-content {
-    color: var(--primary-color);
+#unique .unique-content {
+    color: #fff;
     margin-top: 2rem;
     font-weight: 500;
 }
 
-#service .card-row {
+#unique .card-row {
     margin-top: 7rem;
 }
 
-#service .box {
-    border: 5px solid var(--primary-color);
+#unique .box {
+    background-color: #fff;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     width: 300px;
-    padding: 2rem 0rem;
+    padding: 4rem 0rem;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-#service .box:hover {
+#unique .box:hover {
     background-color: var(--primary-color);
 }
 
-#service .box img {
+#unique .box img {
     display: block;
-    height: 7rem;
+    height: 6rem;
     transition: all 0.3s ease;
 }
 
-#service .box:hover img {
+#unique .box:hover img {
     filter: brightness(0) invert(1);
 }
 
-#service .box p {
+#unique .box p {
     color: var(--primary-color);
     font-size: 1.1rem;
     text-transform: capitalize;
@@ -67,68 +66,45 @@
     transition: all 0.3s ease;
 }
 
-#service .box:hover p {
+#unique .box:hover p {
     color: #fff;
 }
 
-#service .card-row>div:nth-last-child(-n+3) {
-    margin-top: 5rem;
-}
-
-.card-row>div {
-    display: flex;
-    align-items: stretch;
-}
-
 @media screen and (max-width: 1200px) {
-    #service .card-row>div:nth-last-child(-n+3) {
-        margin-top: 2rem;
+    #unique .box img {
+        height: 5rem;
     }
 }
 
 @media screen and (max-width: 992px) {
-    #service .card-row {
-        margin-top: 3rem;
-    }   
-
-    #service .card-row>div:nth-last-child(-n+3) {
+    #unique .card-row>div:nth-last-child(-n+2) {
         margin-top: 2rem;
     }
-}
 
-@media screen and (max-width: 768px) {
-    #service .box {
-        padding: 1rem 1rem;
-    }
-
-    #service .box img {
-        height: 4rem;
-    }
-
-    #service .card-row {
+    #unique .card-row {
         margin-top: 3rem;
     }
 }
 
 @media screen and (max-width: 576px) {
-    #service .card-row {
+    #unique .card-row {
         margin-top: 0rem;
     }
 
-    #service .card-row>div {
+    #unique .card-row>div {
         margin-top: 2rem;
     }
 
-    #service .box {
+    #unique .box {
         padding: 1rem 0rem;
         border-width: 3px;
     }
 
-    #service .box img {
+    #unique .box img {
         height: 3rem;
     }
 
-    #service .box p {
+    #unique .box p {
         font-size: 1rem;
     }
 }
