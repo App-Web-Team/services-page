@@ -2,8 +2,8 @@
 
 <section id="service">
     <div class="container">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row justify-content-center justify-content-sm-start">
+            <div class="col-10 col-md-6">
                 <h2 class="heading">
                     what we do
                 </h2>
@@ -13,40 +13,40 @@
             </div>
         </div>
         <div class="row card-row justify-content-center">
-            <div class="col-md-4 text-center">
+            <div class="col-5 col-sm-4 text-center">
                 <div class="box">
                     <img src="assets/images/card-img-1.svg" alt="" class="">
                     <p>DoorStep Words</p>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-5 col-sm-4 text-center">
                 <div class="box">
                     <img src="assets/images/card-img-2.svg" alt="" class="">
-                    <p>well wishers</p>
+                    <p>Well-Wishers</p>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-5 col-sm-4 text-center">
                 <div class="box">
-                    <img src="assets/images/card-img-1.svg" alt="" class="">
-                    <p>well wishers</p>
+                    <img src="assets/images/card-img-3.svg" alt="" class="">
+                    <p>War-Room Planning</p>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-5 col-sm-4 text-center">
                 <div class="box">
                     <img src="assets/images/card-img-4.svg" alt="" class="">
-                    <p>well wishers</p>
+                    <p>Poll Opniion</p>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-5 col-sm-4 text-center">
                 <div class="box">
                     <img src="assets/images/card-img-5.svg" alt="" class="">
-                    <p>well wishers</p>
+                    <p>Social Managment</p>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-5 col-sm-4 text-center">
                 <div class="box">
                     <img src="assets/images/card-img-6.svg" alt="" class="">
-                    <p>well wishers</p>
+                    <p>KnowMore</p>
                 </div>
             </div>
         </div>
