@@ -7,16 +7,6 @@
     height: 75vh;
 }
 
-.landing-height-1 {
-    /* margin-bottom: 4rem; */
-    height: 100vh;
-}
-
-.landing-height-2 {
-    /* margin-bottom: 4rem; */
-    height: 50vh;
-}
-
 .service-col .service-heading,
 .content {
     color: #fff;
@@ -39,40 +29,18 @@
     margin-top: 1rem;
 }
 
-.people-icon {
-    position: relative;
+.people-icon img {
+    height: 100px;
 }
 
-.people-icon .crowd {
-    height: 190px;
-}
-
-.people-icon .person {
-    /* height: 65px;
-    position: absolute;
-    inset: 0 0 0 0;
-    z-index: -1;
-    left: 64%;
-    top: 17%; */
-    /* big icon */
-    height: 121px;
-    position: absolute;
-    inset: 0 0 0 0;
-    z-index: -1;
-    left: 77%;
-    top: 17%;
-}
-
-.people-icon .icon-margin {
+.icon-margin {
     margin-top: 5rem;
 }
 
-.person-icon img {
-    height: 150px;
-}
+.person-icon img {}
 
 .superman-icon img {
-    height: 270px;
+    height: 130px;
 }
 
 /* style ordinary section */
@@ -208,56 +176,3 @@
 }
 
 /* end - style ordinary section */
-
-/* scroll animation */
-
-.hidden {
-    opacity: 0;
-    /* filter: blur(5px);
-    transform: translateX(-100%); */
-    transition: all 1s;
-}
-
-.show {
-    opacity: 1;
-    /* filter: blur(0);
-    transform: translateX(0); */
-}
-
-.fl {
-    transform: translateX(-100%);
-    transition: all 1s;
-}
-
-.mfl {
-    transform: translateX(0);
-}
-
-.fr {
-    transform: translateX(100%);
-    transition: all 1s;
-}
-
-.mfr {
-    transform: translateX(0);
-}
-
-.fb {
-    transform: translateY(90%);
-    transition: all 1s;
-}
-
-.mfb {
-    transform: translateY(34%);
-}
-
-
-.person-center {
-    transition: all 1s;
-}
-.mtr {
-    transform: translateX(627%);
-    transition-delay: 500ms;
-}
-
-/* end - scroll animation */
