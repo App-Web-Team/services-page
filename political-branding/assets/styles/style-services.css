@@ -1,0 +1,63 @@
+#service {
+    background-color: #fff;
+    padding: 4rem 0rem;
+}
+
+#service .heading {
+    color: var(--primary-color);
+    font-weight: 600;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#service .heading::after {
+    content: "";
+    background-color: var(--secondary-color);
+    height: .5rem;
+    position: absolute;
+    inset: auto 0rem -1rem;
+    border-radius: 0px 0px 8px 0px;
+}
+
+#service .service-content {
+    color: var(--primary-color);
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+#service .card-row {
+    margin-top: 7rem;
+}
+
+#service .box {
+    border: 5px solid var(--primary-color);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 2rem 0rem;
+}
+
+#service .box img {
+    display: block;
+    height: 7rem;
+}
+
+#service .box p {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    display: inline-block;
+    /* margin-top: 1rem; */
+    margin-top: auto;
+}
+
+.card-row>div:nth-last-child(-n+3) {
+    margin-top: 5rem;
+}
+
+.card-row > div {
+    display: flex;
+align-items: stretchF;
+}

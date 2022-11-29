@@ -22,7 +22,8 @@
     <!-- header section -->
     <?php
     include "../notification-bar.php";
-    include "sections/header.php";
+    include "sections/header.inc.php";
+    include "sections/services.inc.php";
     include "../footer.php";
     ?>
 

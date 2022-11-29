@@ -4,7 +4,7 @@
     <div class="container">
         <div class="landing-height d-flex align-items-center">
             <div class="row service-row justify-content-center align-items-end">
-                <div class="col-md-6">
+                <div class="col-10 col-md-6">
                     <h2 class="service-heading">
                         political branding
                     </h2>
@@ -15,9 +15,9 @@
                         more information
                     </button>
                 </div>
-                <div class="col-md-6 mt-5 mt-md-0 icon-col text-center">
+                <div class="col-8 col-sm-12 col-md-6 mt-5 mt-md-0 icon-col text-center">
                     <img src="assets/images/hand-pointer.svg" alt="" class="img-fluid pointer">
-                    <img src="assets/images/ink.svg" alt="" class="img-fluid ink">
+                    <img src="assets/images/ink.svg" alt="" class="img-fluid ink d-none d-sm-block">
                 </div>
             </div>
         </div>

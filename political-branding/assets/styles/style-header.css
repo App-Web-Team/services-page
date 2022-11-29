@@ -2,10 +2,7 @@
     padding-bottom: 5rem;
 }
 
-.landing-height {
-    /* margin-bottom: 4rem; */
-    height: 75vh;
-}
+
 
 .service-heading {
     color: #fff;
@@ -58,8 +55,19 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .ink {
         left: 14.4rem;
+    }
+    .more-btn {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .landing-height {
+        /* margin-bottom: 4rem; */
+        height: 75vh;
     }
 }
