@@ -58,6 +58,27 @@
     nav.scroll {
         background-color: var(--primary-color);
     }
+
+    .dropdown-menu {
+        background-color: var(--primary-color);
+        padding: 0 .8rem;
+        margin-top: 0;
+    }
+
+    .dropdown-item {
+        color: #fff;
+        padding: 0 0;
+        padding-top: 1rem;
+    }
+
+    .dropdown-item:hover {
+        background-color: var(--primary-color);
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; 
+    }
 </style>
 
 <!-- navbar section-->
@@ -80,8 +101,18 @@
             <li class="nav-item">
                 <a class="nav-link" href="#team-section">Brands</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link pw-active" href="#events-section">Services</a>
+            </li> -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle pw-active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                </a>
+                <div class="dropdown-menu text-center text-lg-left" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Personal Branding</a>
+                    <a class="dropdown-item" href="#">Political Branding</a>
+                    <a class="dropdown-item" href="#">Business Consultant</a>
+                </div>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#join-section">Career</a>
